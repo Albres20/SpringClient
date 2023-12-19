@@ -2,6 +2,7 @@ package com.Project.demo.modelo.Entidades;
 
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotEmpty;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -14,8 +15,11 @@ public class Cliente implements Serializable {
     private Long id;
     private static final long serialVersionUID=1L;
 
+    @NotEmpty
     private String nombre;
+    @NotEmpty
     private String apellido;
+    @NotEmpty
     private String email;
 
     @Column(name="create_at")

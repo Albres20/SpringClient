@@ -42,3 +42,19 @@
     margin: auto;
     padding: 60px 0;
 }
+
+.fila .columna form label{
+    font-size: 1em;
+    color: white;
+    margin-top:5px;
+}
+.fila .columna form input{
+    border: 1px solid #CCCCCC;
+}
+.fila .columna form button{
+    font-size: 1em;
+    margin-top: 20px;
+    border-radius: 5px;
+    border:none;
+    background-color: #28a745;
+}
